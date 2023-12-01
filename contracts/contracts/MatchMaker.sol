@@ -53,17 +53,6 @@ contract MatchMaker is AutomationCompatibleInterface  {
     delete _pendingOrders[id];
   }
 
-  function testFunction() public pure returns (bytes memory) {
-    PendingOrder memory order = PendingOrder(10,10,10,0,0);
-    PendingOrder[] memory arr = new PendingOrder[](1);
-    arr[0] = order;
-
-    bytes memory data = abi.encode(arr);
-    (PendingOrder[] memory orders) = abi.decode(data, (PendingOrder[]));
-    console.log(orders.length);
-    return data;
-  }
-
   function checkUpkeep(
         bytes calldata checkData
     )
@@ -147,7 +136,7 @@ contract MatchMaker is AutomationCompatibleInterface  {
     );
 
     for ( uint i = 0; i < orders.size(); i++ ) {
-      
+
     }
   }
 
