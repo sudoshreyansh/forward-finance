@@ -1,3 +1,6 @@
+
+![chain-1](https://github.com/sudoshreyansh/forward-finance/assets/44190883/588d9956-1d08-4128-afbd-7580ae6fe047)
+
 ## Inspiration
 Leverage is a powerful investment tool. It increases your exposure in the market and helps get better returns. But Leverage in cryptocurrencies doesn't work that well. Cryptocurrencies are fundamentally very volatile and using leverage just amplifies this, making it very difficult to invest.
 Stop loss and targets do exist but in high volatility scenarios, a lot of times situations can invert from hitting stop loss to reaching more than the target.
